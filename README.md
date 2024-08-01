@@ -17,11 +17,15 @@ Create a simple project check
 의존성 라이브러리는 잘못 받아지면 지우고 다시 받을 수 있다 
 Maven Dependencies 에 경로 있음
 
-빨간줄 할 것
+빨간줄뜨면 할 것
 ![image](https://github.com/user-attachments/assets/222351f0-4ee7-401f-a79d-73e5de183b4a)
 
 
+#DI, AOP
+DI/IoC : Dependency Injection/ Inversion of Control
 
 
+
+AOP
 
 
