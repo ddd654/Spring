@@ -11,7 +11,7 @@
 
 
 	<!-- 12. 핸들러 매핑, 핸들러 어댑터 자동, > 홈컨트롤러 -->
-	<annotation-driven></annotation-driven>
+ 	<annotation-driven></annotation-driven>
 
 	<!-- 14. 패키지 경로를 읽어서, @Controller 클래스를 빈으로 자동등록-->
 	<context:component-scan base-package="com.simple.controller"></context:component-scan>
@@ -23,7 +23,7 @@
 	<!-- 7.핸들러 맵핑 만들기 -->
 
 	<!-- spring 3버전 까지만 존재한다 -->
-<!-- 	<beans:bean id="homeController" class="com.simple.controller.HomeController"></beans:bean>
+<!--  	<beans:bean id="homeController" class="com.simple.controller.HomeController"></beans:bean>
  -->
 
 

@@ -1,7 +1,11 @@
 package com.simple.controller;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,22 +29,12 @@ public class HomeController{
 
 
 
-
-
-
-
-
-
-//
-//
-//
-//
 ////8. extends 받기
 //public class HomeController extends MultiActionController{
 //	
 //	@Override
 //	public ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) 
-//	throw Exception{
+//	throws Exception{
 //        // 처리 로직
 //
 //		System.out.println("컨트롤러까지 연결됨");
