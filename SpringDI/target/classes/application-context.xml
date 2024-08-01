@@ -11,26 +11,49 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<!-- xml에서 특정 라이브러리를 참조해서 선언하고 싶은 경우에 사용 xmlns의 모듈에 위치를 beans태그로 사용한다는 의미 -->
 
 
-	<bean id="test" class="ex01.SpringTest"></bean>
+	<bean id="test" class="ex01.SpringTest" scope="prototype"></bean>
 
+	<!-- 
+	prototype을 적으면 새로운 객체가 나온다 
+	빈들은 싱글톤 형식으로 만들어져있다
+	-->
 
 	<!-- Hotel, Chef 하는 중 -->
 	<!-- 의존성 주입 - 객체가 생성될때, 특정 객체를 주입한다 -->
 	<bean id="hotel" class="ex02_constructor.Hotel"> <!-- Hotel 을 만든다 -->
 
-
 		<constructor-arg ref="chef"></constructor-arg> <!-- 쉐프객체를 의존성으로 받는다 -->
-	
+
 		<!-- <constructor-arg ref="아이디"></constructor-arg> -->
-	
+
 	</bean>
-
-
 	<bean id="chef" class="ex02_constructor.Chef"></bean>
 
 
+	<!-- setter를 위한 주입 -->
 
+	<!-- 오타 수정하기 -->
+	<bean id="ds" class="ex02_setter.MyDataSource">
+		<!-- <property name="set이름" value="값"></property> -->
 
+		<property name="url" value="jdbc:oracle:thin:@Localhost~~"></property>
+		<property name="uid" value="jsp"></property>
+		<property name="upw" value="jsp"></property>
+	
+	</bean>
+	
+	
+	<!-- DAO setter주입 -->
+	<bean id="memberDAO" class="ex02_setter.MemberDAO">
+		<!-- 객체타입이 들어갈때는 ref안에 써넣는다 -->
+		<property name="myDataSource" ref="ds"></property>
+	</bean>
+
+	<!-- DAO < ds < db -->
+	
+	
+	<bean id=""></bean>
+	
 
 </beans>
 

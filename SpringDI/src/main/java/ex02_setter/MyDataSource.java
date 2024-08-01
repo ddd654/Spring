@@ -2,7 +2,7 @@ package ex02_setter;
 
 public class MyDataSource {
 	private String url;
-	private String urd;
+	private String uid;
 	private String upw;
 	
 	
@@ -13,11 +13,11 @@ public class MyDataSource {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	public String getUrd() {
-		return urd;
+	public String getUid() {
+		return uid;
 	}
-	public void setUrd(String urd) {
-		this.urd = urd;
+	public void setUid(String uid) {
+		this.uid = uid;
 	}
 	public String getUpw() {
 		return upw;

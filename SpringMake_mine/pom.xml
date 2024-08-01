@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.simple</groupId>
+	<artifactId>StringMake</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+<!--4. web.xml 파일 만들어서 가기 디플로이먼트 디스크립 우클릭 해서 스텁 > 파일 들어감-->
+	<!-- 3. 변수 태그 만들기 > 갑자기 3버전으로 체인지-->
+	<properties>
+		<org.springframework>3.1.1.RELEASE</org.springframework>
+	</properties>
+
+
+	<!-- 2. 의존성 태그 만들어서 Spring 받기 > 메이븐 레포지토리 검색 > spring 검색> context랑 web 에서
+	받음-->
+	<dependencies>
+
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-context -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${org.springframework}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${org.springframework}</version>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+
+					<!--1. 자바 버전 바꿈 > 메이븐 업데이트-->
+					<release>11</release>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.2.3</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>

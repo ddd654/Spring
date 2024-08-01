@@ -8,6 +8,12 @@ public class MemberDAO {
 		this.myDataSource = myDataSource;
 	}
 	
+	//getter
+	public MyDataSource getMyDataSource() {
+		return myDataSource = myDataSource;
+	}
+	
+	
 }
 
 //DAO가 만들어질때 DataSource 가 필요하고, DB가 필요하다

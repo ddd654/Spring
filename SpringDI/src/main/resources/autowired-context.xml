@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+	xmlns:context="http://www.springframework.org/schema/context"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- 위에 네임스페이스 하나가 추가됨, beans라는 이름으로 쓰겠다 -->
+	<!-- 빨간줄나면 아래 옵션 추가 체크 -->
+
+	<!-- 의존객체 자동주입 명령 활성화 -->
+	<!-- =bean만 만들면 된다 -->
+	<context:annotation-config>
+
+	</context:annotation-config>
+
+
+	<bean id="printer" class="ex03.autowired.Printer"></bean>
+	<bean id="doc1" class="ex03.autowired.Document"></bean>
+
+	<bean id="doc2" class="ex03.autowired.Document"></bean>
+
+
+	<!-- 컴퓨터, 모니터, 마우스, 키 -->
+	<bean id="computer" class="ex04_quiz.Computer"></bean>
+	<bean id="m" class="ex04_quiz.Monitor"></bean>
+	<bean id="key" class="ex04_quiz.Keyboard"></bean>
+	<bean id="mouse" class="ex04_quiz.Mouse"></bean>
+	
+	
+	
+</beans>
