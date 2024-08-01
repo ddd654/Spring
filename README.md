@@ -21,11 +21,10 @@ Maven Dependencies 에 경로 있음
 ![image](https://github.com/user-attachments/assets/222351f0-4ee7-401f-a79d-73e5de183b4a)
 
 
-#DI, AOP
-DI/IoC : Dependency Injection/ Inversion of Control
+#스프링 동작 구조
+![image](https://github.com/user-attachments/assets/a1c964e7-1b9f-41d2-bd8d-46de8ec3e023)
 
-
-
-AOP
+DispatcherServlet 에서 전부 받아서 처리
+응답은 항상 포워드
 
 
