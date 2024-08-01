@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.simple</groupId>
+  <artifactId>SpringDI</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!--원격에 있는 라이브러리를 추가한다-->
+  	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.0.7.RELEASE</version>
+		</dependency>
+	</dependencies>
+
+<!-- 메이븐 빌드 도구 설정하기-->
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+				<!--11로 바꿧다-->
+					<source>11</source>
+					<target>11</target>
+					<encoding>utf-8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<!--pom을 바꾸면 해야할 것 프로젝트 우클릭> Maven > 업데이트 프로젝트-->
+	
+</project>

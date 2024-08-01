@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 네임스페이스 안 빈즈 라이브러리 사용하기 -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans.xsd"
+
+>
+
+<!-- ctrl space -->
+<!-- xml에서 특정 라이브러리를 참조해서 선언하고 싶은 경우에 사용 
+	xmlns의 모듈에 위치를 beans태그로 사용한다는 의미
+-->
+<bean></bean>
+
+
+</beans>
+
+
+

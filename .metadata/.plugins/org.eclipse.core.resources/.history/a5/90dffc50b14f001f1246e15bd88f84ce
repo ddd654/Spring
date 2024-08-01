@@ -1,0 +1,11 @@
+package ex02_setter;
+
+public class MemberDAO {
+	private MyDataSource myDataSource;
+	
+	//setter 주입
+	public setMyDataSource(MyDataSource myDataSource) {
+		this.myDataSource = myDataSource;
+	}
+	
+}

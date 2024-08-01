@@ -1,0 +1,18 @@
+package ex02_constructor;
+
+public class Hotel {
+	
+	private Chef chef;
+	
+	//호텔은 생성될때 쉐프객체를 받는다 = Hotel은 Chef에 의존적이다
+	
+	public Hotel(Chef chef) {
+		this.chef = chef;
+	}
+	
+	public Chef getChef() {
+		
+	}
+
+	
+}
