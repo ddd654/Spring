@@ -19,16 +19,21 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
+	<!-- 12. 배이스 패키지 따라서 자동으로 빈등록이 된다 >컨 실행-->
 	<!-- base-package안에 들어있는 @Controller, @Service, @Respository, @Componenet 클래스를 bean자동 생성  -->
-	<context:component-scan base-package="com.simple.basic.*" />
+	<context:component-scan base-package="com.simple.basic.*" >
+		
+	</context:component-scan>
 
 
+
 	
+	<!-- 9. 빈 만들고 > 컨 -->
+<!-- 	<beans:bean id="scoreService" class="com.simple.basic.service.score.ScoreServiceImpl"/>
+ -->	
 	
-	
-	
-	
-	
+	<!-- 11. 임플에 코코가 id안에 들어감, 원리 설명글 -->
+
 	
 	
 	

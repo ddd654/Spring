@@ -20,102 +20,111 @@ import com.simple.basic.command.MemberVO;
 //3. 요청 경로를 여기에 적어도 작동된다, 이 컨트롤러 모든 요청
 @RequestMapping("/request")
 public class RequestController {
-	//MVC2이고, 모두 forward 방식
-	
-	//void 형은 바로 적힌 경로로 띄워준다
-	//String 형은 리턴에 적힌 화면경로로 띄워준다
-	//return 'redirect/경로~~~'; 가끔 리다이렉트는 이렇게
-	
-	//1. request/req_ex01 jsp 파일 만들어준다 뭐좀 적고> 컨트롤러
-	
-//	//3. void형은 들어온경로가 나가는 경로 = 그대로 띄운다
+	// MVC2이고, 모두 forward 방식
+
+	// void 형은 바로 적힌 경로로 띄워준다
+	// String 형은 리턴에 적힌 화면경로로 띄워준다
+	// return 'redirect/경로~~~'; 가끔 리다이렉트는 이렇게
+
+	// 1. request/req_ex01 jsp 파일 만들어준다 뭐좀 적고> 컨트롤러
+
+//	//4. void형은 들어온경로가 나가는 경로 = 그대로 띄운다
 //	@RequestMapping("/req_ex01")
 //	public void ex01() {
 //		
 //	}
-	
-	//2. 웹 주소창에 http://localhost:8181/basic 여기에 이어서 /request/req_ex01/
+
+	// 3.
 	@RequestMapping("/req_ex01")
 	public String ex01() {
-		return "request/req_ex01"; //보여줄 화면의 경로
+		return "request/req_ex01"; // 화면경로
 	}
-	
-	//4. GET 방식과 POST 방식만 허용하는법, 키 = 값 
-	//@RequestMapping(value = "/basic", method = RequestMethod.GET) //get만 허용함
-	//@RequestMapping(value = "/basic", method = RequestMethod.POST) //post만 허용함
-	//@RequestMapping("/basic") //get, post 둘다 허용함
-	@RequestMapping({"/basic", "/basic2"}) //다른 경로도 허용한다
+
+	// 5.
+	// @RequestMapping( value = "/basic", method = RequestMethod.GET) //옵션 = 값, GET만
+	// 허용함
+	// @RequestMapping(value = "/basic", method = RequestMethod.POST) // POST만 허용
+	// @RequestMapping("/basic") // 겟, 포스트 둘다 허용
+
+	// jsp에서 배이직 2, 3 만들어줌
+	@RequestMapping({ "/basic", "/basic2" })
 	public String basic() {
-		
+
 		System.out.println("basic요청 실행됨");
-		return null; 
-	}
-	 
-	//4. 좀더 짧게 쓰기
-	//@GetMapping("/basic3") //리퀘스트맵핑 + get만허용
-	@PostMapping("/basic3") //리쉐스트맵핑 + post만허용
-	public String basic3() {
-			
-		System.out.println("basic3요청 실행됨");
 		return null;
 	}
-	
-	///////////////////////////////////////////////////////
-	
-	//5. jsp도 같이 만들고서
-	//ex02화면요청
+
+	// @GetMapping("basic3") // RequestMapping + GET만 허용하기
+	@PostMapping("/basic3") // RequestMapping + POST만 허용하기
+	public String basic3(/* request 선언하면 사용가능 */) {
+
+		System.out.println("배이직 3 실행됐을때");
+		return null;
+	}
+
+	//////////////////////////////////////////
+
+	// ex02 화면 요청
 	@RequestMapping("/req_ex02")
 	public String ex02() {
 		return "request/req_ex02";
 	}
-	
-	
-	//리퀘스트 객체로 값 받기
-//	@RequestMapping(value = "/param", method = RequestMethod.POST)
-//	public String param(HttpServletRequest request) {
+
+//	//7. 들어오는 화면 > 나가는 화면
+//	@RequestMapping(value="/param", method=RequestMethod.POST)
+//	public String param(HttpServletRequest request) { //8. 리퀘스트 객체로 값 받기
 //		
-//		System.out.println( request.getParameter("id") );
-//		System.out.println( request.getParameter("pw") );
-//		System.out.println( request.getParameterValues("inter") );
-//		//잘~~~~ 처리해서~~
-//		//결과화면
-//		return "request/req_ex02_ok";
+//		
+//		System.out.println(request.getParameter("id"));
+//		System.out.println(request.getParameter("pw"));
+//		System.out.println(request.getParameterValues("inter")); //배열
+//		
+//		
+//		//화면처리 후
+//		
+//		
+//		return "request/req_ex02_ok"; // 로 나간다
+//		
+//		//9. 한글 처리를 위해 web.xml 파일에 한글 처리 필터 추가함
 //	}
-	
+
 	
 	//@RequestParam방식 - 반드시 값을 화면에서 넘겨야 됨(필수)
-	//required = false 는 값이 없더라도 통과하게 됩니다.
-	//defaultValue는 값이 없을때 기본값을 지정할 수 있습니다.
-//	@RequestMapping(value = "/param", method = RequestMethod.POST)
-//	public String param( @RequestParam("id") String x, //id를 받아서 x맵핑
-//						 @RequestParam("pw") String y,
-//						 @RequestParam(value = "inter", required = false, defaultValue = "" ) ArrayList<String> list ) { 
+		//required = false 는 값이 없더라도 통과하게 됩니다.
+		//defaultValue는 값이 없을때 기본값을 지정할 수 있습니다.
+	
+//	@RequestMapping(value="/param", method=RequestMethod.POST)
+//	public String param(@RequestParam("id") String x, // id 받아서 x에 저장
+//						@RequestParam("pw") String y,
+//						@RequestParam("inter") String[] arr) { //10. input 태그의 네임값, id를 받아서 x에 맵핑
+//						//@RequestParam("inter") ArrayList<String> list
+//		//화면처리 후
+//
 //		
-//		
+//		//11. 확인
 //		System.out.println(x);
 //		System.out.println(y);
-//		System.out.println(list);
-//		//잘~~~~ 처리해서~~
-//		//결과화면
-//		return "request/req_ex02_ok";
+//		System.out.println(arr);
+//		
+//		
+//		return "request/req_ex02_ok"; // 로 나간다
+//		
 //	}
-
 	
-	//6. VO=DTO, 패키지 만들어서 VO 만들고, 생성자, 게터 만듬
+	
 	@RequestMapping(value = "/param", method = RequestMethod.POST)
-	public String param( MemberVO vo  ) { 
-
+	public String param(MemberVO vo) {// jsp에서 name이 setter 로 넘어간다
+		
 		System.out.println(vo.toString());
-				
-		//잘~~~~ 처리해서~~
-		//결과화면
+		
+		// 잘~~~~ 처리해서~~
+		// 결과화면
 		return "request/req_ex02_ok";
 	}
 	
 	
-	
-	
-	
+	//12. VO 만들어서 줌
+
 	
 	
 }
