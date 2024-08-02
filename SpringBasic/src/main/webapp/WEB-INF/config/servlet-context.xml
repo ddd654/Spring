@@ -7,30 +7,19 @@
 		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-
-	<!-- 디스패쳐 > 핸들러 > 컨트롤러 > 서비스 > DAO  -->
-
-	<!-- 핸들러 맵핑, 핸들러 어댑터, 어노테이션 활성화 기능 -->
+	<!-- 핸들러 맵핑, 핸들러 어댑터, 어노테이션 활성화 -->
 	<annotation-driven />
-
-	<!-- 이 경로는 jsp파일을 바로 보여준다 -->
-	<!-- css, js같은 정적 리소스 파일을 넣는다, resources/ 경로로 요청이 들어오면 이폴더로 바로 연결해서 보여줌 << -->
+	
+	<!-- css,js 같은 정적파일 맵핑 - resources/ 경로로 요청이 들어오면 resources폴더로 다이렉트하게 연결 -->
 	<resources mapping="/resources/**" location="/resources/" />
-
-	<!-- 뷰 리졸버  -->
-	<!-- 컨트롤러에서 리턴되는 값을 디스패쳐서블릿이 뷰의 경로를 합성하는데 사용합니다. -->
+	
+	<!-- 뷰리졸버 - 컨트롤러에서 리턴되는 값을 디스패쳐서블릿이 뷰의 경로를 합성하는데 사용합니다. -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="prefix" value="/WEB-INF/view/" />
 		<beans:property name="suffix" value=".jsp" />
-		
-		<!-- .html 을 뷰화면으로 쓰겠다는 뜻 -->
-		<!-- <beans:property name="suffix" value=".html" /> -->
-		
-		
 	</beans:bean>
 
-
-	<!-- base-package에 있는 @Controller, @Service, @Respository, @component 클래스의 bean으로 생성해준다 -->
+	<!-- base-package안에 들어있는 @Controller, @Service, @Respository, @Componenet 클래스를 bean자동 생성  -->
 	<context:component-scan base-package="com.simple.basic.*" />
 
 
