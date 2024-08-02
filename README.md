@@ -27,4 +27,7 @@ Maven Dependencies 에 경로 있음
 DispatcherServlet 에서 전부 받아서 처리
 응답은 항상 포워드
 
+아래 그림은 응답 순서
+![image](https://github.com/user-attachments/assets/09b6c953-4ea8-4df0-8b7c-683c79ae4fc9)
+
 
