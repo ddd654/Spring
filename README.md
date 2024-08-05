@@ -39,3 +39,42 @@ DispatcherServlet 에서 전부 받아서 처리
 
 3.hikariCP 검색 = 커넥션 풀임 > 2.7.8 > 복붙해서 폼에 추가
 ![image](https://github.com/user-attachments/assets/d901bbe3-da3b-454b-a688-7f6789a0eddb)
+
+
+4.spring jdbc > 아무버전 > ${org.springframework-version} 버전 태그안에 바꿔 넣기
+![image](https://github.com/user-attachments/assets/1264543d-e89c-4f7e-b47e-ec6e7e4c7cdf)
+
+5. 3개 받고 메이븐업뎃
+
+6. context.xml 가서 db 커넥션풀을 만든다
+7. pdf에서 나와있는데 value 값들은 바뀌게 된다
+8. 
+9. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#기술 블로그 생각해보기
