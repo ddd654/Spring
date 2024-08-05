@@ -55,10 +55,16 @@ DispatcherServlet 에서 전부 받아서 처리
 src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 > Run As 실행하기
 ![image](https://github.com/user-attachments/assets/bc8731de-d53a-46d4-b542-d1c1f2d7656c)
 
+9. db 정보는 텍스트로 외부 리소스 파일로 관리된다
 
-9. 
-10. 
-11. 
+10. application.properties 파일 만들어서 데이터 베이스 만들기, context.xml에 pdf에서 id = DBproperties 복붙
+![image](https://github.com/user-attachments/assets/59b94387-3b52-49e8-8116-41cadd8f025e)
+
+bean의 value 값들을 바꿔준다  ex) ${ds.username} > JdbcTest 자바파일이 실행되야한다
+
+
+12. 
+13. 
 
 
 
