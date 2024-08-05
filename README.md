@@ -94,14 +94,16 @@ TestMapper인터페이스 만들어서 @Mapper 적어놓기,
 
 
 
+#AOP
+쓰고싶으면 라이브러리 있어야한다
 
+![image](https://github.com/user-attachments/assets/8390c75f-de8c-43be-bc14-5cd054af77c3)
 
+13강에서 의존성 복붙
 
+![image](https://github.com/user-attachments/assets/14371f14-8bc0-4377-88c2-c861f6ab112e)
 
-
-
-
-
+aspect-context.xml 추가
 
 
 
