@@ -87,6 +87,11 @@ bean의 value 값들을 바꿔준다  ex) ${ds.username} > JdbcTest 자바파일
 ![image](https://github.com/user-attachments/assets/a41cd316-b889-4e8c-9337-76af5d5a734b)
 
 4.인터페이스 만들어서 사용하기
+TestMapper인터페이스 만들어서 @Mapper 적어놓기, 
+
+![image](https://github.com/user-attachments/assets/9a48471b-633e-4f3f-94bf-d5979e5c8a48)
+![image](https://github.com/user-attachments/assets/ba15377d-08ca-47fc-9938-999787ce7459)
+
 
 
 
