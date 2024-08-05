@@ -103,7 +103,7 @@ TestMapper인터페이스 만들어서 @Mapper 적어놓기,
 
 ![image](https://github.com/user-attachments/assets/14371f14-8bc0-4377-88c2-c861f6ab112e)
 
-aspect-context.xml 추가
+aspect-context.xml 추가 > LogAdvice 클래스
 
 
 
