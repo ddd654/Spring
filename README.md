@@ -35,11 +35,13 @@ DispatcherServlet 에서 전부 받아서 처리
 
 # Spring DB 연결하기
 1. 메이븐 레포 > ojdbc8 > 21.5 버전
+
 ![image](https://github.com/user-attachments/assets/3dfcaaa7-94eb-4587-991c-cef92c4b1be2)
    
 2. pom에 추가
 
-3.hikariCP 검색 = 커넥션 풀임 > 2.7.8 > 복붙해서 폼에 추가
+3. hikariCP 검색 = 커넥션 풀임 > 2.7.8 > 복붙해서 폼에 추가
+
 ![image](https://github.com/user-attachments/assets/d901bbe3-da3b-454b-a688-7f6789a0eddb)
 
 
@@ -50,16 +52,19 @@ DispatcherServlet 에서 전부 받아서 처리
 
 6. context.xml 가서 db 커넥션풀을 만든다
 7. pdf에서 나와있는데 value 값들은 바뀌게 된다
+
 ![image](https://github.com/user-attachments/assets/90ee36e9-3a9e-4608-a9cc-60e4c6f330b1)
 
 
-8. 부분 테스트 코드 쓰기
+9. 부분 테스트 코드 쓰기
 src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 > Run As 실행하기
+
 ![image](https://github.com/user-attachments/assets/bc8731de-d53a-46d4-b542-d1c1f2d7656c)
 
-9. db 정보는 텍스트로 외부 리소스 파일로 관리된다
+11. db 정보는 텍스트로 외부 리소스 파일로 관리된다
 
-10. application.properties 파일 만들어서 데이터 베이스 만들기, context.xml에 pdf에서 id = DBproperties 복붙
+12. application.properties 파일 만들어서 데이터 베이스 만들기, context.xml에 pdf에서 id = DBproperties 복붙
+    
 ![image](https://github.com/user-attachments/assets/59b94387-3b52-49e8-8116-41cadd8f025e)
 
 bean의 value 값들을 바꿔준다  ex) ${ds.username} > JdbcTest 자바파일이 실행되야한다
