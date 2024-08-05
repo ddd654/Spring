@@ -35,5 +35,7 @@ DispatcherServlet 에서 전부 받아서 처리
 1. 메이븐 레포 > ojdbc8 > 21.5 버전
 ![image](https://github.com/user-attachments/assets/3dfcaaa7-94eb-4587-991c-cef92c4b1be2)
    
+2. pom에 추가
 
-
+3.hikariCP 검색 = 커넥션 풀임 > 2.7.8 > 복붙해서 폼에 추가
+![image](https://github.com/user-attachments/assets/d901bbe3-da3b-454b-a688-7f6789a0eddb)
