@@ -48,8 +48,16 @@ DispatcherServlet 에서 전부 받아서 처리
 
 6. context.xml 가서 db 커넥션풀을 만든다
 7. pdf에서 나와있는데 value 값들은 바뀌게 된다
-8. 
+![image](https://github.com/user-attachments/assets/90ee36e9-3a9e-4608-a9cc-60e4c6f330b1)
+
+
+8. 부분 테스트 코드 쓰기
+src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 >
+
+
 9. 
+10. 
+11. 
 
 
 
