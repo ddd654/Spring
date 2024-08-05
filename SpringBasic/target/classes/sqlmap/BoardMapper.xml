@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 만들면 txt에 있는 매퍼용 코드 적기 -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<!-- namespace="구현인터페이스의 경로" -->
+<mapper namespace="com.simple.basic.repository.score.BoardMapper">
+
+	<!-- 아래부터 기능 -->
+
+	<insert id="regist" parameterType="com.simple.basic.command.BoardVO">
+		INSERT INTO SBOARD(NUM, NAME, TITLE, CONTENT)
+		VALUES(SBOARD_SEQ.NEXTVAL, #{name}, #{title}, #{content})
+	</insert>
+	
+	<select id="getBoard" resultType="com.simple.basic.command.BoardVO">
+		SELECT * FROM SBOARD ORDER BY NUM DESC
+	</select>
+
+	<delete id="delete" parameterType="int">
+		DELETE FROM SBOARD WHERE NUM = #{num}
+	</delete>
+
+
+
+
+
+
+</mapper>
+
+
+

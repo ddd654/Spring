@@ -12,13 +12,25 @@ import com.simple.basic.service.score.impl.ScoreDAO;
 @Service("co") // 반드시 component-scan에 의하여 읽힌다
 public class ScoreServiceImpl implements ScoreService {
 
-	// 15. 맨아래 퍼블릭 주석하고 실행해줌
-	@Autowired
-	@Qualifier("coconut")
-	ScoreDAO scoreDAO; //자동으로 빈 생성
+//	//SQL 세션 팩토리 및 마이바티스 후 필요 없어서 > 이제부터 ScoreMapper 만들고 기능 추가
+//	// 15. 맨아래 퍼블릭 주석하고 실행해줌
+//	@Autowired
+//	@Qualifier("coconut")
+//	ScoreDAO scoreDAO; //자동으로 빈 생성
 
+	
+	
+	
+	//mapper.xml에서 쓴것 이용 완성 후 > VO
+	@Autowired
+	private ScoreMapper scoreMapper; // 밖에서 못쓰게 private
+	
+	
 	public void regist(ScoreVO vo) {
-		scoreDAO.regist(vo);
+		//scoreDAO.regist(vo);
+		scoreMapper.regist(vo);
+		
+		System.out.println("AOP클래스 보기용 score메서드 동작~~1");
 	}
 
 //	public void regist(ScoreVO vo) {
@@ -30,16 +42,28 @@ public class ScoreServiceImpl implements ScoreService {
 
 	// 20. >컨
 	public ArrayList<ScoreVO> getScore(){
-			return scoreDAO.getScore();
+		//return scoreDAO.getScore();
+		System.out.println("AOP클래스 보기용 score메서드 동작~~2");
+
+//		//에러용 코드
+//		String str=null;
+//		str.charAt(0);
+		
+		return scoreMapper.getScore();
+		
+
+		
 		}
 
 	// 8) DAO 와 DAO임플도 똑같이
 	@Override
 	public void delete(int sno) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("AOP클래스 보기용 score메서드 동작~~3");
+
 		//12) > 과정은 DAO impl을 거치고 > 컨
-		scoreDAO.delete(sno);
+		//scoreDAO.delete(sno);
+		scoreMapper.delete(sno);
 	}
 
 }

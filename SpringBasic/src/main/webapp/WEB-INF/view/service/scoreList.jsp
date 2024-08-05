@@ -30,7 +30,7 @@
 	<!--2) onclick 붙이기 location.href가 요청 > 컨
 		4) 키=값
 	-->
-	<button type="button" onclick="location.href='deleteScore?sno=${a.index}';">1) 삭제기능</button>
+	<button type="button" onclick="location.href='deleteScore?sno=${vo.sno}';">1) 삭제기능</button>
 	<!-- 원래는 POST 지금은 겟 -->
 	<hr>
 </c:forEach>

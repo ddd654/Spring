@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 만들면 txt에 있는 매퍼용 코드 적기 -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace="구현인터페이스의 경로" -->
+<mapper namespace="com.simple.basic.repository.score.ScoreMapper">
+<!-- <mapper namespace="com.simple.basic.test.mapper.TestMapper">
+ -->
+	<!-- 아래부터 기능 -->
+
+	<!-- 매개변수는 1개여야함 -->
+	<!-- VO타입은 객체라면 #{getter} 사용해서 매개변수를 참조한다 -->
+
+	<insert id="regist" parameterType="com.simple.basic.command.ScoreVO">
+		INSERT INTO SCORE(SNO, NAME, KOR, ENG, MATH)
+		VALUES(SCORE_SEQ.NEXTVAL, #{name}, #{kor}, #{eng}, #{math})
+	</insert>
+	
+	<!-- resultType="select가 반환받을 타입" -->
+	<select id="getScore" resultType="ScoreVO777">
+		select * from SCORE order by SNO desc
+	</select>
+
+	<!-- parameterType에 ScoreMapper인터페이스에 있는 delete의 int -->
+	<delete id="delete" parameterType="int">
+			DELETE FROM SCORE WHERE SNO = #{sno}
+	</delete>
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>
+  	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

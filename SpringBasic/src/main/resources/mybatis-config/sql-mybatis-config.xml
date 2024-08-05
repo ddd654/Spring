@@ -17,6 +17,24 @@
   <!-- mapper 위치도 빈 주입으로 들어간다 -->
   
   
+  <!-- mapper.xml 오타 예방하기 -->
+  <!-- type클래스를 alias 단축명으로 쓸것이다 -->
+  <typeAliases>
+  	<typeAlias type="com.simple.basic.command.ScoreVO" alias="ScoreVO777"/>
+  
+  </typeAliases>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   </configuration>
   
   

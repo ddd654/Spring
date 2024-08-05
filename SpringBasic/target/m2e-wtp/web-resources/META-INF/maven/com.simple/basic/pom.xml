@@ -167,6 +167,14 @@
 			<version>1.3.2</version>
 		</dependency>
 
+		<!-- AOP 써보기-->
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${org.aspectj-version}</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<!-- 1. 메이븐 컴파일 옵션을 1.8로 선언, 메이븐 버전을 3.5.1로 변경, maven update실행 -->
