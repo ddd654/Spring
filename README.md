@@ -31,7 +31,9 @@ DispatcherServlet 에서 전부 받아서 처리
 위 그림은 응답 순서
 
 
-#
-
+#Spring DB 연결하기
+1. 메이븐 레포 > ojdbc8 > 21.5 버전
+![image](https://github.com/user-attachments/assets/3dfcaaa7-94eb-4587-991c-cef92c4b1be2)
+   
 
 
