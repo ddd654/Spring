@@ -52,7 +52,8 @@ DispatcherServlet 에서 전부 받아서 처리
 
 
 8. 부분 테스트 코드 쓰기
-src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 >
+src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 > Run As 실행하기
+![image](https://github.com/user-attachments/assets/bc8731de-d53a-46d4-b542-d1c1f2d7656c)
 
 
 9. 
