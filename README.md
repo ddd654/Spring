@@ -70,13 +70,23 @@ src/test/java 폴더에서 패키지안 JdbcTest 클래스 만들어서 > Run As
 bean의 value 값들을 바꿔준다  ex) ${ds.username} > JdbcTest 자바파일이 실행되야한다
 
 
-12. 
-13. 
 
+# MyBatis
+1. 추가하기
 
+![image](https://github.com/user-attachments/assets/d25e8c20-3d17-4b7f-9c0d-777dfaea2d60)
 
+2. 마이바티스에 위에꺼 두개 필요한데 pdf 8강꺼 복붙함
 
+![image](https://github.com/user-attachments/assets/9d2c416a-6b4e-4487-9036-e923ebadabad)
 
+3. 세션팩토리 context.xml에 추가
+
+![image](https://github.com/user-attachments/assets/b9117c7d-e11b-42a1-94b2-7601bda5b9ea)
+![image](https://github.com/user-attachments/assets/e347d635-e33d-4f56-a07c-74f32997ac16)
+![image](https://github.com/user-attachments/assets/a41cd316-b889-4e8c-9337-76af5d5a734b)
+
+4.인터페이스 만들어서 사용하기
 
 
 
