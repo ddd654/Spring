@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.simple.basic.command.ScoreVO;
 import com.simple.basic.repository.score.ScoreService;
@@ -23,15 +24,18 @@ public class ScoreController {
 	
 
 	// 8. ScoreService 계속 쓸꺼니까 여기다가
-	// ScoreService service = new ServiceServiceImpl();
+	// ScoreService service = new ServiceServiceImpl(); << 이것보다 더 좋은 방법이 임플을 빈으로 만드는것
 	// 호출될때마다 객체가 생성되면 스프링에 안좋은듯하여 바꿈 > 임플로
 	// > 서블릿 컨텍스트 빈으로 생성 후 > 컨트롤러로
 
 	//10. Impl을 bean으로 등록
 	//ScoreService를 찾아서 연결 해줌 >> 확인 후 주석 및 컨텍스트랑 임플로
 	@Autowired
-	@Qualifier("co") // 
-	ScoreService scoreService;
+	@Qualifier("co") // ~Impl2가 있으면 중복을 피하려고 Qualifier 필요
+	ScoreService scoreService; //임을이 이 안으로
+	
+	
+	
 	
 	// > 즉, 반드시 Autowired 쓰고 Impl에 서비스를 붙여준다
 	// 여기까지 한 서비스 세트 > DAO 만들기 수업 > 패키지랑 ScoreDAO ScoreDAOImpl 만듬
@@ -72,4 +76,20 @@ public class ScoreController {
 	}
 	// 4. 서비스 스코어 패키지 만들기 > service 클래스와 서비스 임플 만듬
 
+	
+	
+	//2. 삭제요청기능 만들기 > 생각, 번호? 인덱스 번호 > jsp 키
+	@RequestMapping("/deleteScore")
+	public String deleteScore(@RequestParam("sno") int sno) {
+		
+		//6) sno 확인 > 인터페이스 스코어 서비스
+		System.out.println(sno);
+		
+		//11) > 스코어 서비스 임플
+		scoreService.delete(sno);
+		
+		// 13) 삭제 메서드 실행 후 다시 목록화면으로 가게 redirect
+		return "redirect:/service/scoreList"; 
+	}
+	
 }

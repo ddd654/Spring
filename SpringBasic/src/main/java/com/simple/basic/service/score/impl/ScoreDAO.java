@@ -12,4 +12,6 @@ public interface ScoreDAO {
 	//18. 조회기능 만들기 > 임플로
 	public ArrayList<ScoreVO> getScore();
 	
+	// 9) > DAO Impl
+	public void delete(int sno); 
 }

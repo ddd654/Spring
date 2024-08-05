@@ -15,7 +15,7 @@ public class ScoreServiceImpl implements ScoreService {
 	// 15. 맨아래 퍼블릭 주석하고 실행해줌
 	@Autowired
 	@Qualifier("coconut")
-	ScoreDAO scoreDAO;
+	ScoreDAO scoreDAO; //자동으로 빈 생성
 
 	public void regist(ScoreVO vo) {
 		scoreDAO.regist(vo);
@@ -32,5 +32,14 @@ public class ScoreServiceImpl implements ScoreService {
 	public ArrayList<ScoreVO> getScore(){
 			return scoreDAO.getScore();
 		}
+
+	// 8) DAO 와 DAO임플도 똑같이
+	@Override
+	public void delete(int sno) {
+		// TODO Auto-generated method stub
+		
+		//12) > 과정은 DAO impl을 거치고 > 컨
+		scoreDAO.delete(sno);
+	}
 
 }

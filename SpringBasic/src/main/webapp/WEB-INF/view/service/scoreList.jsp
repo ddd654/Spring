@@ -16,12 +16,23 @@
 
 
 <!-- 23. 리스트 vo에 넣어서 하나하나 출력 -->
-<c:forEach var="vo" items="${list }">
+<c:forEach var="vo" items="${list }" varStatus="a"> 
+
+<!-- 5) varStatus > 아래 location에 ${a.index} 추가 > 컨 -->
+	${a.index}
+	${a.count}
+	
 	${vo.name }<br>
 	${vo.kor }<br>
 	${vo.eng }<br>
 	${vo.math }<br>
 	<br>
+	<!--2) onclick 붙이기 location.href가 요청 > 컨
+		4) 키=값
+	-->
+	<button type="button" onclick="location.href='deleteScore?sno=${a.index}';">1) 삭제기능</button>
+	<!-- 원래는 POST 지금은 겟 -->
+	<hr>
 </c:forEach>
 
 

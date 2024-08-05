@@ -10,8 +10,8 @@
 
 <h4>점수 등록이 완료되었습니다</h4>
 
-<a href="목록페이지">목록</a>
-<a href="등록">등록</a>
+<a href="scoreList">목록 화면</a>
+<a href="scoreRegist">등록 화면</a>
 
 
 

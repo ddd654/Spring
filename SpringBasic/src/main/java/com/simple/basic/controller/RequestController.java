@@ -47,7 +47,7 @@ public class RequestController {
 	// @RequestMapping("/basic") // 겟, 포스트 둘다 허용
 
 	// jsp에서 배이직 2, 3 만들어줌
-	@RequestMapping({ "/basic", "/basic2" })
+	@RequestMapping({ "/basic", "/basic2" }) //value = {"", "경로"}
 	public String basic() {
 
 		System.out.println("basic요청 실행됨");
@@ -69,10 +69,11 @@ public class RequestController {
 	public String ex02() {
 		return "request/req_ex02";
 	}
-
+	
+	//값 받기1
 //	//7. 들어오는 화면 > 나가는 화면
 //	@RequestMapping(value="/param", method=RequestMethod.POST)
-//	public String param(HttpServletRequest request) { //8. 리퀘스트 객체로 값 받기
+//	public String param(HttpServletRequest request) { //8. 리퀘스트 객체를 넣고, 값 받기
 //		
 //		
 //		System.out.println(request.getParameter("id"));
@@ -89,14 +90,15 @@ public class RequestController {
 //	}
 
 	
+	//값 받기2 param
 	//@RequestParam방식 - 반드시 값을 화면에서 넘겨야 됨(필수)
 		//required = false 는 값이 없더라도 통과하게 됩니다.
 		//defaultValue는 값이 없을때 기본값을 지정할 수 있습니다.
 	
 //	@RequestMapping(value="/param", method=RequestMethod.POST)
-//	public String param(@RequestParam("id") String x, // id 받아서 x에 저장
+//	public String param(@RequestParam("id") String x, //네임값, id 받아서 x에 저장
 //						@RequestParam("pw") String y,
-//						@RequestParam("inter") String[] arr) { //10. input 태그의 네임값, id를 받아서 x에 맵핑
+//						@RequestParam("inter") , required = false, defaultValue = "A") { //10. input 태그의 네임값, id를 받아서 x에 맵핑
 //						//@RequestParam("inter") ArrayList<String> list
 //		//화면처리 후
 //
@@ -109,9 +111,9 @@ public class RequestController {
 //		
 //		return "request/req_ex02_ok"; // 로 나간다
 //		
-//	}
+//	} //공유폴더 확인해서 오류 확인하기
 	
-	
+	//값 받기3 vo
 	@RequestMapping(value = "/param", method = RequestMethod.POST)
 	public String param(MemberVO vo) {// jsp에서 name이 setter 로 넘어간다
 		

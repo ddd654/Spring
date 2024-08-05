@@ -4,8 +4,69 @@
 	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
 	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
 		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 데이터베이스 연결 or 디스패쳐서블릿 외부에서 동작하는 bean들이 들어갈 수 있음. -->
+
+
+	<!-- DB정보를 외부에서 관리 > 빈 value 값 -->
+	<!-- classpath:/는 java/resources 아래를 나타내는 경로 -->
+	<bean id="DBproperties"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location"
+			value="classpath:/db-config/application.properties" />
+	</bean>
+
+
+
+
+
+
+	<!--1) db 커넥션풀을 빈으로 만들어본다 -->
+	<!-- value 값들은 바뀌게 된다 -->
+
+	<!-- <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig"> <property 
+		name="driverClassName" value="oracle.jdbc.OracleDriver"></property> <property 
+		name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe"></property> <property 
+		name="username" value="JSP"></property> <property name="password" value="JSP"></property> 
+		</bean> -->
+
+	<!-- ds.driverclassname=oracle.jdbc.OracleDriver ds.jdbcurl=jdbc:oracle:thin:@localhost:1521:xe 
+		ds.username=JSP ds.password=JSP 아래들 값 바꿈 -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName"
+			value="${ds.driverclassname}"></property>
+		<property name="jdbcUrl" value="${ds.jdbcurl}"></property>
+		<property name="username" value="${ds.username}"></property>
+		<property name="password" value="${ds.password}"></property>
+	</bean>
+
+	<!-- 의존성 주입, -->
+	<bean id="ds" class="com.zaxxer.hikari.HikariDataSource">
+		<constructor-arg ref="hikariConfig"></constructor-arg>
+	</bean>
+
+	<!-- 히카리cp 공식문서에 xml 나와있음 -->
+
+
+	<!-- MyBatis의 사용의 핵심 객체 sessionFactory bean 추가 -->
+	<!-- 세션팩토리 대신해주는 것 -->
+	<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- db정보 -->
+		<property name="dataSource" ref="ds"></property>
+		<!-- 설정파일 정보 -->
+		<property name="configLocation" value="classpath:/mybatis-config/sql-mybatis-config.xml"></property>
+		<!-- mapper 위치 -->
+		<property name="mapperLocations" value="classpath:/sqlmap/*.xml"></property>
+	</bean>
+	<!-- ref는 빈에 들어갈 이름, 지금은 위 아이디에 있던 ds가 들어간다-->
+	<!-- testcode로 -->
+
 	
-		<!-- 데이터베이스 연결 or 디스패쳐서블릿 외부에서 동작하는 bean들이 들어갈 수 있음. -->
-		
-		
+	
+	<!-- 해당 패키지를 읽어서 인터페이스의 위치를 확인한다 > @Mapper 붙여서 -->
+	<mybatis-spring:scan base-package="com.simple.basic.*"/>
+
+
+
 </beans>

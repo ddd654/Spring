@@ -52,7 +52,8 @@ public class AppController {
 	}
 
 	@RequestMapping(value = "/apple", method = RequestMethod.POST)
-	public String app2(@ModelAttribute("year") String year, @ModelAttribute("month") String month,
+	public String app2(@ModelAttribute("year") String year, 
+			@ModelAttribute("month") String month,
 			@ModelAttribute("day") String day, @ModelAttribute("msg") String msg) {
 
 		return "/quiz/quiz02_ok";

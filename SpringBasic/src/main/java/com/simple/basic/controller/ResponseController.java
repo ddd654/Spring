@@ -13,6 +13,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.simple.basic.command.MemberVO;
 
+//값을 보내는 response
+
 //1. jsp 만들고 컨트롤러
 @Controller
 @RequestMapping("/response")
@@ -27,7 +29,7 @@ public class ResponseController {
 	// a링크 타고 다음화면 가기
 	// 01 > 컨트롤러 > 02
 
-	// model전달자
+	// 값 보내기 1)model전달자
 	// 2. 요청
 //	@RequestMapping("/res_ex02")
 //	public String ex02(Model model) {
@@ -37,7 +39,7 @@ public class ResponseController {
 //		return "response/res_ex02";
 //	}
 
-	// modelAndView전달자
+	// 값 보내기 2) modelAndView전달자
 	@RequestMapping("/res_ex02")
 	public ModelAndView ex02() {
 
@@ -46,7 +48,7 @@ public class ResponseController {
 		mv.addObject("now", new Date());
 		mv.setViewName("response/res_ex02"); // 화면에 대한 경로
 
-		return mv;
+		return mv; 
 	}
 
 	// @ModelAttribute = 리퀘스트 + model합성어
@@ -54,7 +56,7 @@ public class ResponseController {
 	public String ex03(@ModelAttribute("info") String info) {
 
 		System.out.println(info); // info라는 이름으로 데이터를 넘겨줍니다. ex03에는 ${info} 값이 있을것이다
-
+		
 		return "response/res_ex03";
 	}
 
@@ -67,6 +69,7 @@ public class ResponseController {
 	}
 
 	////////////////////////////////////////////////////////////////////////////
+	
 	// 리다이렉트 라는것?
 	// 스프링은 이동방식 기본이 forward입니다
 	// redirect는 다시 다시 컨트롤러를 태우는 용도로 사용합니다.
