@@ -22,7 +22,7 @@ Maven Dependencies 에 경로 있음
 ![image](https://github.com/user-attachments/assets/222351f0-4ee7-401f-a79d-73e5de183b4a)
 
 
-#스프링 동작 구조
+# 스프링 동작 구조
 ![image](https://github.com/user-attachments/assets/a1c964e7-1b9f-41d2-bd8d-46de8ec3e023)
 
 DispatcherServlet 에서 전부 받아서 처리
@@ -33,7 +33,7 @@ DispatcherServlet 에서 전부 받아서 처리
 위 그림은 응답 순서
 
 
-#Spring DB 연결하기
+# Spring DB 연결하기
 1. 메이븐 레포 > ojdbc8 > 21.5 버전
 ![image](https://github.com/user-attachments/assets/3dfcaaa7-94eb-4587-991c-cef92c4b1be2)
    
