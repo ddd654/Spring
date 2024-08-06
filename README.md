@@ -118,7 +118,10 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 
 3. 이번엔 2버전 사용할건데 나중에 바꾼다
 4. ![image](https://github.com/user-attachments/assets/e4a450c4-f1d4-4b63-b94a-7fe12320f3da)
-5. 
+5. ![image](https://github.com/user-attachments/assets/517e7b1c-a48b-495f-b144-2e749bf5747d)
+6. 3버전으로 만들어서 오류나면 2.7.18 버전으로 고쳐준다. 아래 자바 컴파일은 11
+7. 컨트롤러 만들어서 확인
+8. ![image](https://github.com/user-attachments/assets/a15c2ede-156a-40c2-ae4e-fa6d1f12c645)
 
 
 
@@ -128,4 +131,3 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 
 
 
-#기술 블로그 생각해보기
