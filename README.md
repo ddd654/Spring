@@ -111,6 +111,15 @@ root aspect-context.xml 경로추가 > LogAdvice 클래스
 
 https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de239fb45b41019d14a6191f0e8a51
 
+1. STS에서 프로젝트 다 close 하고
+
+
+2. ![image](https://github.com/user-attachments/assets/f0a66341-c4df-4672-8dd6-90fbd4a94e52)
+
+3. 이번엔 2버전 사용할건데 나중에 바꾼다
+4. ![image](https://github.com/user-attachments/assets/e4a450c4-f1d4-4b63-b94a-7fe12320f3da)
+5. 
+
 
 
 
