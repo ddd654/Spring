@@ -140,8 +140,13 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 3. ![image](https://github.com/user-attachments/assets/925a61b1-c6fa-49bf-8924-ca7b6fd5bb74)
 4. execute >next
 5. ![image](https://github.com/user-attachments/assets/f48ac897-ce03-4799-b5d8-852c33831c67) 확인
-6. 
 
+# Lombok
+1. 일종의 VO
+2. https://brave-planarian-384.notion.site/2-e66e6fe1458d4ba383efd4ef0e284a3f
+3. 위 참고해서 설치
 
+4. 인텔리제이에서 jsp를 뷰로 사용하기위해 메이븐 레포에서 버전에 맞는 jasper와 jstl 검색 > 두번째꺼 존성 붙여줌
+5.![image](https://github.com/user-attachments/assets/98e3341f-e5a6-4057-b00b-cc212d396405)
 
 
