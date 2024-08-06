@@ -127,8 +127,8 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 1. 커뮤버전 다운
 2. ![image](https://github.com/user-attachments/assets/6a4c6570-b11e-456a-bdb0-c1093465a51e)
 
-
-
+3. 인텔리는 노션 참고해서 하기
+4. 실행할때 UI바뀌는 옵션은 문제생기면 원복할것
 
 
 
