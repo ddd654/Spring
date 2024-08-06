@@ -103,10 +103,13 @@ TestMapper인터페이스 만들어서 @Mapper 적어놓기,
 
 ![image](https://github.com/user-attachments/assets/14371f14-8bc0-4377-88c2-c861f6ab112e)
 
-aspect-context.xml 추가 > LogAdvice 클래스
+root aspect-context.xml 경로추가 > LogAdvice 클래스
 
 
 
+# SpringBoot
+
+https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de239fb45b41019d14a6191f0e8a51
 
 
 
