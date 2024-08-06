@@ -131,6 +131,16 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 4. 실행할때 UI바뀌는 옵션은 문제생기면 원복할것
 
 
+# MySQL 설치하기(oracle 대신)
+![image](https://github.com/user-attachments/assets/1d1b641d-5457-4542-b822-8c7ff3a033bb)
+![image](https://github.com/user-attachments/assets/ebf9893b-2d7b-4f41-88a7-d6631c7d325e)
+
+1. MySQL 검색 > 용량 큰것 다운
+2. 실행 > 커스텀
+3. ![image](https://github.com/user-attachments/assets/925a61b1-c6fa-49bf-8924-ca7b6fd5bb74)
+4. execute >next
+5. ![image](https://github.com/user-attachments/assets/f48ac897-ce03-4799-b5d8-852c33831c67) 확인
+6. 
 
 
 
