@@ -123,6 +123,10 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 7. 컨트롤러 만들어서 확인
 8. ![image](https://github.com/user-attachments/assets/a15c2ede-156a-40c2-ae4e-fa6d1f12c645)
 
+# 인텔리제이로 하기(community version)
+1. 커뮤버전 다운
+2. ![image](https://github.com/user-attachments/assets/6a4c6570-b11e-456a-bdb0-c1093465a51e)
+
 
 
 
