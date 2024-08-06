@@ -12,8 +12,6 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			/WEB-INF/config/root-context.xml
-			/WEB-INF/config/aspect-context.xml
-			
 		</param-value>
 	</context-param>
 	
@@ -36,6 +34,7 @@
 			<param-name>contextConfigLocation</param-name>
 			<param-value>
 				/WEB-INF/config/servlet-context.xml
+				/WEB-INF/config/aspect-context.xml
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
