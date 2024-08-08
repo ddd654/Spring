@@ -43,6 +43,7 @@
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\user\Desktop\course\spring\Spring"/>
 			<item value="C:\Users\user\Desktop\course\spring\workspace"/>
 			<item value=""/>
 		</list>
@@ -51,8 +52,8 @@
 			<item value="C:\Users\user\Desktop\course\spring\workspace\SpringBasic(스프링프로젝트배포용).zip"/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="427"/>
-			<item key="DIALOG_Y_ORIGIN" value="44"/>
+			<item key="DIALOG_X_ORIGIN" value="431"/>
+			<item key="DIALOG_Y_ORIGIN" value="70"/>
 			<item key="DIALOG_WIDTH" value="525"/>
 			<item key="DIALOG_HEIGHT" value="710"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

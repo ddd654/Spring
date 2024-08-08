@@ -1,0 +1,46 @@
+SELECT NOW();
+
+# 데이터베이스 생성
+create database spring default charset utf8;
+
+#계정생성문
+create user spring identified by 'spring';
+
+#권한부여
+-- grant all privileges on 데이터베이스명.* to 계정명;--
+grant all privileges on spring.* to spring;
+
+
+############################
+
+#MySQL 변경점
+#NUMBER(10) > INT
+#VARCAHR2(30) > VARCHAR
+#DATE > DATE or TIMEDTAMP
+#SEQ 없음 > AUTO_INCREMENT
+
+#테이블 명칭의 대소문자를 구별한다
+
+#selcet, insert, update, delete, join 같음
+#함수는 변경됨
+#문자열 합치기 || > concat(문자, 문자열, 문자열...)
+#서브쿼리 쓸때 앨리어스 있어야함
+SELECT * FROM (SELECT now()) as 테이블앨리어스;
+
+
+CREATE TABLE MEMO (
+	MNO INT PRIMARY KEY AUTO_INCREMENT,
+    MEMO VARCHAR(200) NOT NULL,
+    PHONE VARCHAR(30),
+    PW VARCHAR(4),
+    SECRET CHAR(1) CHECK(SECRET IN ('y', 'n'))
+);
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace 인터페이스 위치-->
+<mapper namespace="com.simple.basic.memo.MemoMapper">
+    <select id="hello" resultType="string" >
+        select now()
+    </select>
+<!--  > testCode02   -->
+
+<!-- 타입 둘다 맞다
+   <insert id="regist" parameterType="com.simple.basic.command.MemoVO">-->
+    <insert id="regist" parameterType="MemoVO">
+        INSERT INTO MEMO(MEMO, PHONE, PW, SECRET)
+        VALUES(#{memo}, #{phone}, #{pw}, #{secret})
+    </insert>
+
+    <select id="getList" resultType="com.simple.basic.command.MemoVO">
+        SELECT * FROM MEMO
+
+    </select>
+
+
+
+</mapper>
+
+
+
+
