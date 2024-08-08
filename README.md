@@ -151,3 +151,19 @@ https://brave-planarian-384.notion.site/6c60785d267a439fb34ccb5953b08424?v=c6de2
 5.![image](https://github.com/user-attachments/assets/98e3341f-e5a6-4057-b00b-cc212d396405)
 
 
+
+
+
+# 데이터베이스
+1. 레포에서 마이바티스를 받는데
+2. https://brave-planarian-384.notion.site/5-MyBatis-504fd1778ab442d7b4abff40d334aa27
+3. 위 참조해서 설치
+4. 레포에서 커넥터 필요 8.0.33 사용
+5. ![image](https://github.com/user-attachments/assets/f485afcc-bf0f-4919-a5e4-d1ebc6293d36)
+6. ![image](https://github.com/user-attachments/assets/2768648e-4eea-431e-b4d2-90cf70a26843)
+
+
+
+
+
+
