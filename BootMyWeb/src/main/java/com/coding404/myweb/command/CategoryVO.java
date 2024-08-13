@@ -1,0 +1,2 @@
+package com.coding404.myweb.command;public class CategoryVO {
+}
