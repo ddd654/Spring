@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf616cd6-cb3f-4c02-a6e2-f85866cdaca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/MemoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/UsersVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TABLE123" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/ProductUploadVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/CategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/CategoryVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

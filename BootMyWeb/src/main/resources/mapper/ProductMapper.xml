@@ -172,5 +172,35 @@
         AND CATEGORY_DETAIL_PARENT_LV = #{categoryDetailLv}
     </select>
 
+    <!--상품 등록과 함께 파일을 insert-->
+    <!--
+    파일 insert 전에 product의 prod_id를 조회해서 fk로 저장해야한다
+    selectKey를 사용한다
+    order = before 이전에 실행한다고 결정
+    resultType 실행될 sql의 반환타입
+    keyProperty vo에서 어느키에따가 넣을까
+
+    -->
+    <!--SELECT PROD_ID FROM WHERE PROD_WRITER = 'admin'-->
+    <insert id="uploadFile" parameterType="ProductUploadVO">
+        <selectKey order="BEFORE" resultType="int" keyProperty="prodId"> <!-- prodId에 집어넣고 다음 실행한다-->
+            SELECT MAX(PROD_ID) FROM PRODUCT WHERE PROD_WRITER = #{prodWriter}
+        </selectKey>
+
+        INSERT INTO PRODUCT_UPLOAD (
+        FILENAME,
+        FILEPATH,
+        UUID,
+        PROD_ID,
+        PROD_WRITER
+        )
+        VALUES (
+        #{filename},
+        #{filepath},
+        #{uuid},
+        #{prodId},
+        #{prodWriter}
+        )
+    </insert>
 
 </mapper>
