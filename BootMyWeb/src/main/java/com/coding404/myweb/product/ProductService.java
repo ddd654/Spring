@@ -5,7 +5,6 @@ import com.coding404.myweb.command.ProductVO;
 import com.coding404.myweb.util.Criteria;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public interface ProductService {
     public int productInsert(ProductVO vo); //등록
@@ -17,10 +16,8 @@ public interface ProductService {
     public int productUpdate(ProductVO vo); //수정
     public void productDelete(int prodId); //삭제
 
-    //카테고리
-    public ArrayList<CategoryVO> getCate();
-
-    //2, 3단 카테
-    public ArrayList<CategoryVO> getCatechild(CategoryVO vo);
-
+    //카테고리 1단계
+    public ArrayList<CategoryVO> getCategory();
+    //카테고리 2,3단계
+    public ArrayList<CategoryVO> getCategoryChild(CategoryVO vo);
 }

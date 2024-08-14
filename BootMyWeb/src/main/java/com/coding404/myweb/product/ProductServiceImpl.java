@@ -45,16 +45,12 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ArrayList<CategoryVO> getCate() {
-        return productMapper.getCate();
+    public ArrayList<CategoryVO> getCategory() {
+        return productMapper.getCategory();
     }
 
     @Override
-    public ArrayList<CategoryVO> getCatechild(CategoryVO vo) {
-        return null;
+    public ArrayList<CategoryVO> getCategoryChild(CategoryVO vo) {
+        return productMapper.getCategoryChild(vo);
     }
 }
-//이부분에서 해보기
-//카테고리  키값은 그룹번호 + 카테고리 ID 로 만들어 진다
-//prodCategory에 밸류값 세팅해서 화면띄우기
-//클릭한 대상의 이 값을, 인풋태그[name=prodCategory] 에 value에 값을 지정

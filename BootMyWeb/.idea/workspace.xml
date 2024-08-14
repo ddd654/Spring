@@ -4,43 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e235d1fd-6520-4a7a-b330-933a61aed8ea" name="Changes" comment="인텔리로 커밋하고 푸시하기">
-      <change afterPath="$PROJECT_DIR$/BootMyWeb/src/main/resources/templates/include/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/8.8/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/.settings/org.springframework.ide.eclipse.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/bin/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/bin/main/com/simple/basic/BootBasicApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/bin/main/com/simple/basic/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootBasic/bin/test/com/simple/basic/BootBasicApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/util/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/util/Criteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/util/PageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/util/PageVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootMyWeb/src/main/resources/templates/product/productList.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootMyWeb/src/main/resources/templates/product/productList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intelij/workspace/BootBasic/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../intelij/workspace/BootBasic/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intelij/workspace/BootBasic/out/production/classes/com/simple/basic/command/TestVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intelij/workspace/BootBasic/out/production/classes/com/simple/basic/command/TestVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../intelij/workspace/BootBasic/out/production/classes/com/simple/basic/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../intelij/workspace/BootBasic/out/production/classes/com/simple/basic/config/WebConfig.class" afterDir="false" />
+    <list default="true" id="cf616cd6-cb3f-4c02-a6e2-f85866cdaca9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/MemoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/UsersVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TABLE123" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/CategoryVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/command/CategoryVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/coding404/myweb/TestCode01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +32,24 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/BootMyWeb">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BootMyweb" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -70,8 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,12 +68,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2kMmpf37N1GIaQSE3KoHncyl697" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2kMmlmHeOr8ULnfkxvpTlq2NiYM" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -92,43 +78,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BootMyWeb.executor": "Run",
+    "Application.BootMyweb.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.BootMyWeb [:BootMyWebApplication.main()].executor": "Run",
+    "Gradle.BootMyweb [:BootMywebApplication.main()].executor": "Run",
     "Gradle.TestCode01.insertTest.executor": "Run",
+    "Gradle.TestCode02.joinTest01.executor": "Run",
+    "Gradle.TestCode02.joinTest02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "springStudy",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/intelij/workspace/BootBasic",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/BootMyweb",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.splitter.proportion": "0.24496374"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources\templates\product" />
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources" />
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources\templates" />
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources\static" />
+      <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources\templates" />
+      <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources" />
+      <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources\templates" />
-      <recent name="C:\Users\user\Desktop\course\spring\Spring\BootMyWeb\BootMyWeb\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.coding404.myweb.product" />
+      <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources" />
+      <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BootMyWeb">
-    <configuration name="BootMyWeb" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.BootMyweb">
+    <configuration name="BootMyweb" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.coding404.myweb.BootMyWebApplication" />
-      <module name="BootMyWeb.BootMyWeb.main" />
+      <option name="MAIN_CLASS_NAME" value="com.coding404.myweb.BootMywebApplication" />
+      <module name="BootMyweb.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,7 +116,7 @@
     <configuration name="TestCode01.insertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/BootMyWeb" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -157,8 +137,58 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TestCode02.joinTest01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.coding404.myweb.TestCode02.joinTest01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCode02.joinTest02" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.coding404.myweb.TestCode02.joinTest02&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestCode02.joinTest02" />
+        <item itemvalue="Gradle.TestCode02.joinTest01" />
         <item itemvalue="Gradle.TestCode01.insertTest" />
       </list>
     </recent_temporary>
@@ -166,38 +196,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e235d1fd-6520-4a7a-b330-933a61aed8ea" name="Changes" comment="" />
-      <created>1723102003556</created>
+      <changelist id="cf616cd6-cb3f-4c02-a6e2-f85866cdaca9" name="Changes" comment="" />
+      <created>1723101972424</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723102003556</updated>
+      <updated>1723101972424</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="인텔리로 커밋하고 푸시하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="인텔리로 커밋하고 푸시하기" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/BootMyWeb/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -25,4 +25,7 @@ public class ProductVO {
     private String prodPurchaseYn;
     private String prodContent;
     private String prodComment;
+
+    //N:1 JOIN
+    private String categoryNav;
 }

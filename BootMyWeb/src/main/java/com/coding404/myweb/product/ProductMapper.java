@@ -19,8 +19,8 @@ public interface ProductMapper {
     public int productUpdate(ProductVO vo); //수정
     public void productDelete(int prodId); //삭제
 
-    public ArrayList<CategoryVO> getCate();
-    public ArrayList<CategoryVO> getCatechild(CategoryVO vo);
-
-
+    //카테고리 1단계
+    public ArrayList<CategoryVO> getCategory();
+    //카테고리 2,3단계
+    public ArrayList<CategoryVO> getCategoryChild(CategoryVO vo);
 }
