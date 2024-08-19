@@ -1,6 +1,8 @@
 package com.coding404.myweb.controller;
 
+import com.coding404.myweb.command.ProductUploadVO;
 import com.coding404.myweb.command.ProductVO;
+import com.coding404.myweb.command.UsersVO;
 import com.coding404.myweb.product.ProductService;
 import com.coding404.myweb.util.Criteria;
 import com.coding404.myweb.util.PageVO;
@@ -15,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -54,10 +57,16 @@ public class ProductController {
     //step5. 페이지네이션을 누를때, 검색 키워드를 같이 넘겨주어야 함
     //step6. 100씩 보기버튼 처리
     @GetMapping("/productList")
-    public String productList(Model model, Criteria cri) {
+    public String productList(Model model, Criteria cri,
+                              HttpSession session
+                              ) {
+
+        //session
+        UsersVO vo = (UsersVO) session.getAttribute("usersVO");
+
 
         //현재 로그인되어 있는 사람 아이디가 admin이라고 가정하고
-        String userId = "admin";
+        String userId = vo.getId();
         ArrayList<ProductVO> list = productService.getList(userId, cri);
         model.addAttribute("list", list);
         //페이지VO
@@ -82,6 +91,12 @@ public class ProductController {
 
         ProductVO vo = productService.getDetail(prodId);
         model.addAttribute("vo", vo);
+
+        //08-19
+        //1- 파일에 대한 select > service
+        ArrayList<ProductUploadVO> img = productService.getImg(prodId);
+        model.addAttribute("img", img);
+        // > html > ajax
 
         return "product/productDetail";
     }

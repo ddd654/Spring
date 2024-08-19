@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<html lang="en">
+
+<!--<th:block th:fragment="함수(매개변수)">-->
+    <th:block th:fragment="함수(apple)">
+<head>
+    <meta charset="UTF-8">
+    <title>공통 템플릿</title>
+
+<!-- 이곳에 css 같은거 넣고 쓰면 됨-->
+
+
+</head>
+<body>
+
+    <header>
+        header
+    </header>
+
+<section>
+<!--    <th:block th:replace="${apple}"></th:block>-->
+
+    <th:block th:replace="~{/include/layout01 :: part1}"></th:block>
+
+
+</section>
+
+    <footer>
+        footer
+    </footer>
+
+</body>
+
+
+</th:block>
+
+</html>

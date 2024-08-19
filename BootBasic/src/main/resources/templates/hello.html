@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    08-13
+
+    타임리프로 만들어진 뷰 입니다~~~~~
+
+
+    <button type="button" id="getBtn">get방식</button>
+    <button type="button" id="postBtn">post방식</button>
+
+<!--    <button type="button0" id="get1">get1</button>-->
+<!--    <button type="button0" id="post1">post1</button>-->
+
+
+    <!--<script>
+        // 1. 다른곳으로 보내기 - 패스베리어블 방식인 경우로
+        //fetch 문법
+
+        var getBtn = document.getElementById("getBtn");
+        getBtn.addEventListener("click", function(){
+            fetch("/getData2/1/사과")// 2. 컨에 있는 겟매핑 경로 사용
+            .then(function(response){
+                return response.text()
+            })
+            .then(function(data){
+                console.log(data);
+            })
+        })
+
+        var postBtn = document.getElementById("postBtn");
+        postBtn.addEventListener("click", function(){
+            //3. POST 방식
+            fetch("/getEntity3",{ // 4. 이거 보낼때 > 양방향 타입 넣어줘야된다
+                method : "post",
+                body : JSON.stringify({num : 1, name : "바나나"}), // JSON식으로 키=값 보내기
+                headers : {
+                    "Content-Type" : "application/json" // 5. 이거
+                }
+            })
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(data){
+                console.log(data);
+            })
+        })
+
+        var get1 = document.getElementById("get1");
+        var post1 = document.getElementById("post1");
+        get1.addEventListener("click", function(){
+            fetch("/api/v1/getData?name1=1&name2=사과444")
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(data){
+                console.log(data)
+            })
+        })
+
+        post1.addEventListener("click", function(){
+            fetch("/api/v1/getInfo",{
+                method : "post",
+                body : JSON.stringify({memo : "dd", phone : "010-1234-1233"}),
+                headers : {"Content-Type" : "application/json"}
+            })
+            .then(function(response){
+                return response.json();
+            })
+            .then(function(data){
+                console.log(data);
+            })
+        })
+
+
+    </script>-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+
+        $("#postBtn").click(function(){
+            $.ajax({
+                type : "POST",
+                url : "/api/v1/getInfo", //요청방식
+                data : JSON.stringify({num: 11, name:"010-1323-4242"}),
+                contentType : "application/json", // 보낸데이터 타입
+                datatype : "json", //생략
+                success : function(data){
+                    console.log(data);
+                },
+                error : function(err, status){
+                    console.log(err);
+                }
+            })
+        })
+
+    </script>
+
+
+    <!--제이쿼리로 표현하기-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $("#getBtn").click(function(){
+            $.ajax({
+                type : "get", //요청방식
+                url : "/getData2/1/사과", //요청주소
+                success : function(data){},
+                error : function(err, status){
+                    console.log(err);
+                }
+            })
+        })
+
+        $("#postBtn").click(function(){
+            $.ajax({
+                type : "post",
+                url : "/getEntity", //요청방식
+                data : JSON.stringify({num: 1, name:"구구"}),
+                contentType : "application/json", // 보낸데이터 타입
+                datatype : "json", //생략
+                success : function(data){
+                    console.log(data);
+                },
+                error : function(err, status){
+                    console.log(err);
+                }
+            })
+        })
+
+
+    </script>
+
+
+</body>
+</html>

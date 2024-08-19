@@ -27,5 +27,6 @@ public interface ProductMapper {
 
     public void uploadFile(ProductUploadVO vo);
 
+    public ArrayList<ProductUploadVO> getImg(int prodId);
 
 }

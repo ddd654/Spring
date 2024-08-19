@@ -203,4 +203,10 @@
         )
     </insert>
 
+    <!-- getImg-->
+    <select id="getImg" resultType="ProductUploadVO">
+    SELECT * FROM PRODUCT_UPLOAD
+        WHERE PROD_ID = #{prodId}
+    </select>
+
 </mapper>

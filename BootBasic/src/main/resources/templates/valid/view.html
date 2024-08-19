@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!-- 2. th:value 추가해서 적었던 값을 유지할 수 있다!-->
+<h3> 스프링 부트 서버로 유효성 검사하기</h3>
+<form action="actionForm" method="post">
+
+<!--  3. th:errors는 메시지를 찍어준다  > 밸컨-->
+    이름: <input type="text" name="name" th:value="${vo.name}">
+    <span style="color: red;" th:errors="${vo.name}"></span> <!-- 값을 넣지 않았을때 나오는 메시지 -->
+    <hr>
+
+    급여: <input type="text" name="salary" th:value="${vo.salary}">
+    <span th:errors="${vo.salary}"></span> <!-- 값을 넣지 않았을때 나오는 메시지 -->
+    <hr>
+
+    전화: <input type="text" name="phone" th:value="${vo.phone}">
+    <span th:errors="${vo.phone}"></span>
+    <hr>
+
+    메일: <input type="text" name="email" th:value="${vo.email}">
+    <span th:errors="${vo.email}"></span>
+    <hr>
+
+    <input type="submit" value="유효성 검사1">
+</form>
+[[${vo}]]
+
+<div th:replace="~{valid/quiz01 :: coconut}">
+
+</div>
+
+
+
+</body>
+</html>

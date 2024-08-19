@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<!--<th:block th:replace="~{./include/layout03 :: 함수()}">-->
+<th:block th:replace="~{./include/layout03 :: 함수( ~{ :: .banana} ) }">
+~{경로 :: 함수( ~{ 내파일:: 선택자})}
+    <div id="wrap">
+        여기는 몸체입니다. 아이디 선택자 #
+    </div>
+
+    <div class="banana">
+        여기는 몸체입니다2. 아이디 선택자 .
+    </div>
+
+    <script>
+        여따가 스크립트 x
+        블럭 밖 o
+    </script>
+
+</th:block>
+
+</html>
