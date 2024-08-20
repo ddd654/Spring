@@ -5,23 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf616cd6-cb3f-4c02-a6e2-f85866cdaca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BootJpa/hs_err_pid17424.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/controller/JpaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/interceptor/MenuHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/interceptor/UserInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/hs_err_pid7552.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/replay_pid7552.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Memo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/member/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPABasicTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPACumtomTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAJpqlTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAQueryMethodTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPApageTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study_java/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/BootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/BootJpaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/AjaxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/coding404/myweb/product/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/baseLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/baseLayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product/productReg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "springStudy",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/BootJpa",
+    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/study_java",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "settings.editor.splitter.proportion": "0.24496374"
   }
