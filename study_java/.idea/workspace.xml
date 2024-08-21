@@ -5,58 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="848b9194-a31a-498a-8e50-6693ff576618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BootJpa/hs_err_pid7552.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/replay_pid7552.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Memo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/member/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPABasicTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPACumtomTest05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAJpqlTest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAQueryMethodTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPApageTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/BootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/BootJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BootMyWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BootMyWeb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/generated/main123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/coco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/var1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/entity/Memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPACumtomTest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPACumtomTest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAJpqlTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/test/java/com/example/jpa/JPAJpqlTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ktksjiMVG0c3aWFYL629kny88X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;springStudy&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/BootJpa&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/study_java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.string.executor": "Run",
+    "Application.var1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "springStudy",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/BootJpa",
+    "onboarding.tips.debug.path": "C:/Users/user/Desktop/course/spring/Spring/study_java/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="study_java" />
@@ -64,9 +70,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.string" />
+      <module name="study_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="var1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable.var1" />
+      <module name="study_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.string" />
+        <item itemvalue="Application.var1" />
       </list>
     </recent_temporary>
   </component>
@@ -80,16 +114,5 @@
       <updated>1724110469540</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

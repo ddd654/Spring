@@ -4,9 +4,8 @@ import lombok.*;
 
 import javax.persistence.*;
 
-//08-20
-@Entity // jpa가 entity로 관리한다
-@Table(name = "MEMO")
+@Entity //jpa가 엔티티로 관리한다는 의미
+@Table(name = "MEMO") //MEMO테이블
 @Getter
 @Setter
 @ToString
@@ -15,32 +14,37 @@ import javax.persistence.*;
 @Builder
 public class Memo {
 
-    //@Id // pk로 사용하기 mno
-    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "연결 이름")
-    //@SequenceGenerator(name = "연결 이름", sequenceName = "시퀀ㅅ이름", initialValue = 1 /*초기값 1*/, allocationSize = 1/*1씩 증가*/)
-    //위 두 문장은 오라클에서 pk 사용하는 법이다
+    //엔티티를 정의하면, 하이버네이트가 DDL구문을 대신 실행해주는데, spring.jpa.hibernate.ddl-auto=update 옵션
 
-    //엔티티를 정릐하면 hibernate가 DDL을 대신 해준다, > properties에서 update 옵션이 해주는 것임
-
-    // mySQL
-    @Id // pk
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment
+    @Id //pk
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //auto_increment동작
+//    오라클전략
+//    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "이름")
+//    @SequenceGenerator(name = "이름", sequenceName = "시퀀스명", initialValue = 1, allocationSize = 1)
     private long mno;
-
     @Column(length = 200, nullable = false)
-    private String writer;/member_id 칼럼에 주키 저장하기
+    private String writer;
+    @Column(columnDefinition = "varchar(200) default 'y' ") //만들고 싶은 제약을 직접 명시
+    private String text;
+
+    //N:1
+    //FK 컬럼명을 명시하지 않으면 Member엔티티에 member_주키 로 자동 생성됩니다.
+//    @ManyToOne(fetch = FetchType.LAZY) //manyToOne 기본값은 EAGER방식
+//    @JoinColumn(name = "member_id") //Member엔티티의 주키를 member_id컬럼에 저장하겠다(FK)
+//    private Member member; //멤버 엔티티
+
+    //N:1
+    //FK 컬럼명을 명시하지 않으면 Member엔티티에 member_주키 로 자동 생성됩니다.
+//    @ManyToOne(fetch = FetchType.LAZY) //manyToOne 기본값은 EAGER방식
+//    @JoinColumn(name = "member_id") //Member엔티티의 주키를 member_id컬럼에 저장하겠다(FK)
+//    private Member member; //멤버 엔티티
+
+
+    //양방향 맵핑
+    @ManyToOne
+    @JoinColumn(name = "member_id")
     private Member member;
 
 
+
 }
-
-//이렇게  mySQL에 memo TABLE을 만들어 준다
-
-@Column(columnDefinition = "varchar(200) default 'y'") //제약을 넣는 경우
-private String text;
-
-
-//N :1
-//FK d칼럼명을 명시하지 않으면 Memmber 엔티티에 주키로 생성
-@ManyToOne
-@JoinColumn(name = "member_id") /

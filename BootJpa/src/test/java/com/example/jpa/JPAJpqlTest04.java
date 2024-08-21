@@ -81,16 +81,6 @@ public class JPAJpqlTest04 {
         System.out.println("현재페이지:" + result.getNumber());
     }
 
-    @Test
-    public void testCode08() {
-
-        Pageable pageable = PageRequest.of(0, 10);
-        Page<Object[]> result = memoRepository.getList5(100L, pageable);
-
-        System.out.println(result);
-
-
-    }
 
 
     //네이티브 쿼리
