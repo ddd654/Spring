@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="848b9194-a31a-498a-8e50-6693ff576618" name="Changes" comment="">
+    <list default="true" id="b7bbd383-9c93-4257-b2ac-f8ac870b7325" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../App/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../App/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../App/.idea/gradle.xml" afterDir="false" />
@@ -25,14 +25,13 @@
       <change afterPath="$PROJECT_DIR$/../SpringBasic/.idea/material_theme_project_new.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringBasic/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SpringBasic/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../App/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../App/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../App/.settings/.jsdtscope" beforeDir="false" />
@@ -60,8 +59,6 @@
       <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoCustomRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootJpa/src/main/java/com/example/jpa/repository/MemoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BootMyWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BootMyWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../app">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
@@ -78,33 +75,25 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpringStudy" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2ktksjiMVG0c3aWFYL629kny88X" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2kzRieNP7vrU5YHHSmH6GMqlSEI" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -112,67 +101,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.string.executor&quot;: &quot;Run&quot;,
-    &quot;Application.var1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;springStudy&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/app&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/study_java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/SpringStudy&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="study_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.string" />
-      <module name="study_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="var1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.var1" />
-      <module name="study_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="variable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.string" />
-        <item itemvalue="Application.var1" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="848b9194-a31a-498a-8e50-6693ff576618" name="Changes" comment="" />
-      <created>1724110469540</created>
+      <changelist id="b7bbd383-9c93-4257-b2ac-f8ac870b7325" name="Changes" comment="" />
+      <created>1724284546704</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724110469540</updated>
+      <updated>1724284546704</updated>
     </task>
     <servers />
   </component>

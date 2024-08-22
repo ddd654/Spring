@@ -70,6 +70,7 @@ public class JPABasicTest01 {
     public void testCode05() { //delete - 삭제는 delete or deleteById
         memoRepository.deleteById(50L); //50번꺼 삭제하기
     }
-    
+
+
 
 }

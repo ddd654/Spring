@@ -94,14 +94,17 @@ public interface MemoRepository extends JpaRepository<Memo, Long>, //엔티티�
 //    List<Memo> mtoJoin1(@Param("a") long a);
 
 
-    //다대일 양방향 맵핑 사용하세요~~
-    List<MemberMemoDTO> otmJoin3(String id); //DTO로 반환받기
-    //Page<MemberMemoDTO> joinPage(String text, Pageable pageable); //조인된 결과를 Pageable처리
     @Query(value = "select new com.example.jpa.entity.MemberMemoDTO(x.id, x.name, x.signDate, m.mno, m.writer, m.text) " +
-            "from Memo m left join m.member x where m.writer like %:writer%"
-            ,countQuery = "select count(m) from Memo m left join m.member x where m.writer like %:writer%"
+            "from Memo m left join m.member x where m.text like %:text%"
+            ,countQuery = "select count(m) from Memo m left join m.member x where m.text like %:text%"
     )
-    Page<MemberMemoDTO> joinPage(@Param("writer") String text, Pageable pageable);
+    Page<MemberMemoDTO> joinPage(@Param("text") String text, Pageable pageable);
+
+
+
+
+
+
 
 
 
