@@ -5,44 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf616cd6-cb3f-4c02-a6e2-f85866cdaca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../App/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../App/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/java/com/app/controller/AppController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/resources/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/webapp/WEB-INF/config/root-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/webapp/WEB-INF/config/servlet-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/src/main/webapp/WEB-INF/view/service123/first.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/target/classes/com/app/controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/target/classes/hello.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/target/m2e-wtp/web-resources/META-INF/maven/com.simple/basic/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../App/target/m2e-wtp/web-resources/META-INF/maven/com.simple/basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../App/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootBasic/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../BootBasic/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootBasic/src/main/java/com/simple/basic/controller/MemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootBasic/src/main/java/com/simple/basic/controller/MemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BootBasic/src/main/java/com/simple/basic/controller/RestBasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BootBasic/src/main/java/com/simple/basic/controller/RestBasicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBasic/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBasic/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study_java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,23 +70,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BootMyweb.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.BootMyweb [:BootMywebApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestCode01.insertTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestCode02.joinTest01.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TestCode02.joinTest02.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;springStudy&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/course/spring/Spring/study_java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24496374&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BootMyweb.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.BootMyweb [:BootMywebApplication.main()].executor": "Run",
+    "Gradle.TestCode01.insertTest.executor": "Run",
+    "Gradle.TestCode02.joinTest01.executor": "Run",
+    "Gradle.TestCode02.joinTest02.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "springStudy",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/course/spring/Spring/BootMyweb",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.splitter.proportion": "0.24496374"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\course\intelij\workspace\BootMyweb\src\main\resources\templates" />

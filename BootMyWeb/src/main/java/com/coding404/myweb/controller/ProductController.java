@@ -33,22 +33,23 @@ public class ProductController {
     
     
     //목록
-//    @GetMapping("/productList")
-//    public String productList(Model model, Criteria cri) {
-//
-//        //현재 로그인되어 있는 사람 아이디가 admin이라고 가정하고
-//        String userId = "admin";
-//
-//        ArrayList<ProductVO> list = productService.getList(userId, cri);
-//        model.addAttribute("list", list);
-//
-//        //페이지VO
-//        int total = productService.getTotal(userId); //전체게시글 수
-//        PageVO pageVO = new PageVO(cri, total ); //페이지네이션
-//        model.addAttribute("pageVO", pageVO);
-//
-//        return "product/productList";
-//    }
+    //    @GetMapping("/productList")
+    //    public String productList(Model model, Criteria cri) {
+    //
+    //        //현재 로그인되어 있는 사람 아이디가 admin이라고 가정하고
+    //        String userId = "admin";
+    //
+    //        ArrayList<ProductVO> list = productService.getList(userId, cri);
+    //        model.addAttribute("list", list);
+    //
+    //        //페이지VO
+    //        int total = productService.getTotal(userId); //전체게시글 수
+    //        PageVO pageVO = new PageVO(cri, total ); //페이지네이션
+    //        model.addAttribute("pageVO", pageVO);
+    //
+    //        return "product/productList";
+    //    }
+
 
     //step1. criteria같은 객체에 검색 키워드를 추가
     //step2. 목록sql, 전체게시글sql 동적쿼리로 변경

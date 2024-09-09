@@ -117,12 +117,13 @@ public class RestBasicController {
     /////////////////////
     //응답문서 명확하게 작성하기
 
-    @CrossOrigin("http://127.0.0.1:5500")
-    //@CrossOrigin("*") 모든 서버에 대한 요청 승인
+    //@CrossOrigin("http://127.0.0.1:5500")
+    @CrossOrigin("*") //모든 서버에 대한 요청 승인
     @PostMapping("/getEntity")
     public TestVO getEn() {
         TestVO vo = new TestVO(33, "코코넛", 11, "파주");
 
+        System.out.println("!!!!!!!!!!!!!!!!" + vo.toString());
         return vo;
     }
 
